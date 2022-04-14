@@ -1,0 +1,81 @@
+.input--container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.input--text{
+    border: 0;
+    box-shadow: 0px 0px 5px #005585;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 7px 0 0 7px;
+    color: #004b59;
+    font-size: 20px;
+}
+
+::placeholder{
+    color: #016274;
+}
+
+.input--button {
+    padding: 20px;
+    border: 0;
+    border-radius: 0 7px 7px 0;
+    background-image: url("assets/search.svg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    color:#016274;
+    box-shadow: 0px 0px 5px #005585;
+}
+
+.forecast--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 40px;
+}
+
+.forecast--name {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.forecast--city {
+    margin: 0;
+    color: white;
+}
+
+.forecast--country {
+    margin: 0;
+    color: white;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.forecast--first{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.forecast--celsius{
+    color: white;
+    font-size: 100px;
+    margin: 0;
+}
+
+.forecast--text {
+    color: #016274;
+    margin-top: 25px;
+    font-size: 15px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 100px;
+}

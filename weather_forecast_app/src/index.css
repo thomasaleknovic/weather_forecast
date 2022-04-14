@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background: linear-gradient(243.18deg, #02D7E4 0%, #035E92 100%) no-repeat;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
