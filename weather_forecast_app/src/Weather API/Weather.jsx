@@ -22,8 +22,20 @@ export default {
             {
                 tag: 'weatherforecast',
                 title: 'Weather Forecast',
-                item: await basicFetch(`/current.json?key=${API_KEY}&lang=pt&q=${location}`)
+                item: await basicFetch(`/forecast.json?key=${API_KEY}&lang=pt&q=${location}&days=5&alerts=yes`)
             }
         ];
+    },
+
+    getIp: async () => {
+        
+        return [
+            {
+                tag: 'userIp',
+                title:'User IP',
+                item: await basicFetch(`/ip.json?key=${API_KEY}&q=auto:ip`)
+            }
+        ]
     }
+
 }

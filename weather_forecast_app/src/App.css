@@ -40,3 +40,10 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+.ending {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+}

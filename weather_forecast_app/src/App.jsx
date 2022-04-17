@@ -11,6 +11,8 @@ function App() {
 
       <Input />
 
+      <p className='ending'>Developed by Thomas Aleknovic</p>
+
     </div>
   );
 }

@@ -1,8 +1,11 @@
+
+
 .input--container {
     display: flex;
     justify-content: center;
     padding: 30px;
-    margin-top: 40px;
+    margin-top: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .input--text{
@@ -37,7 +40,7 @@
     justify-content: center;
     align-items: center;
     flex-flow: column;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .forecast--name {
@@ -69,6 +72,13 @@
     color: white;
     font-size: 100px;
     margin: 0;
+    display: flex;
+    margin-right: 10px;
+}
+.forecast--celsius span{
+
+    font-size: 40px;
+    margin-top: 20px;
 }
 
 .forecast--text {
@@ -78,4 +88,46 @@
     background-color: white;
     padding: 15px;
     border-radius: 100px;
+}
+
+.forecast--feels {
+    color: white;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.forecast--daily{
+    display: flex;
+    max-width: 400px;
+    overflow: scroll;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.forecast--hours {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hours--time {
+    flex-flow: row;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 300;
+
+}
+
+.hours--temp_c{
+    margin-top: 10px;
 }
