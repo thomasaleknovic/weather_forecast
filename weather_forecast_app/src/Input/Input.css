@@ -16,17 +16,19 @@
     border-radius: 7px 0 0 7px;
     color: #004b59;
     font-size: 20px;
+    width: 200px;
 }
 
 ::placeholder{
     color: #016274;
 }
 
+
 .input--button {
     padding: 20px;
     border: 0;
     border-radius: 0 7px 7px 0;
-    background-image: url("assets/search.svg");
+    background-image: url("weather_forecast_app/assets/search.svg");
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: center;
