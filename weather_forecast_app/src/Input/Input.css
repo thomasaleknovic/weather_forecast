@@ -28,7 +28,7 @@
     padding: 20px;
     border: 0;
     border-radius: 0 7px 7px 0;
-    background-image: url("weather_forecast_app/assets/search.svg");
+    background-image: url("https://raw.githubusercontent.com/thomasaleknovic/weather_forecast/5602cc7495d6e3c37f79d581ed116b8797ee8dc0/weather_forecast_app/assets/search.svg");
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: center;
